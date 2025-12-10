@@ -1,5 +1,9 @@
 # Sistema Experto: Consultor de Hardware
 
+**Idiomas / Languages / Языки:**
+- [Español](README.md)
+- [Русский](README_ru.md)
+
 Proyecto académico de sistema experto para recomendar equipos de cómputo
 (PC/portátil) según propósito de uso, presupuesto y movilidad.
 
