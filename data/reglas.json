@@ -1,0 +1,425 @@
+[
+  {
+    "id": 1,
+    "condiciones": {
+      "proposito": "juegos",
+      "presupuesto": "bajo",
+      "movilidad": "escritorio"
+    },
+    "recomendacion": {
+      "tipo": "PC gaming de entrada",
+      "config": "CPU 4-6 núcleos, 16GB RAM, GPU dedicada básica (ej. GTX 1650/RTX nivel inicial), SSD 512GB",
+      "marcas": [
+        "Lenovo",
+        "Acer",
+        "HP"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "condiciones": {
+      "proposito": "juegos",
+      "presupuesto": "medio",
+      "movilidad": "escritorio"
+    },
+    "recomendacion": {
+      "tipo": "PC gaming gama media",
+      "config": "CPU 6 núcleos moderno, 16GB RAM, GPU dedicada de gama media, SSD 1TB",
+      "marcas": [
+        "ASUS",
+        "MSI",
+        "HP Omen"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "condiciones": {
+      "proposito": "juegos",
+      "presupuesto": "alto",
+      "movilidad": "escritorio"
+    },
+    "recomendacion": {
+      "tipo": "PC gaming alta gama",
+      "config": "CPU 8 núcleos alto rendimiento, 32GB RAM, GPU dedicada potente, SSD 1-2TB NVMe",
+      "marcas": [
+        "Alienware",
+        "ASUS ROG",
+        "MSI"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "condiciones": {
+      "proposito": "juegos",
+      "presupuesto": "medio",
+      "movilidad": "portatil"
+    },
+    "recomendacion": {
+      "tipo": "Portátil gaming gama media",
+      "config": "CPU 6 núcleos móvil, 16GB RAM, GPU dedicada móvil de gama media, SSD 512GB-1TB",
+      "marcas": [
+        "ASUS TUF",
+        "Lenovo Legion",
+        "Acer Nitro"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "condiciones": {
+      "proposito": "juegos",
+      "presupuesto": "alto",
+      "movilidad": "portatil"
+    },
+    "recomendacion": {
+      "tipo": "Portátil gaming alta gama",
+      "config": "CPU 8 núcleos, 32GB RAM, GPU dedicada potente, pantalla 144Hz+, SSD 1TB o más",
+      "marcas": [
+        "ASUS ROG",
+        "MSI",
+        "Razer"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "condiciones": {
+      "proposito": "oficina",
+      "presupuesto": "bajo",
+      "movilidad": "escritorio"
+    },
+    "recomendacion": {
+      "tipo": "PC de oficina básico",
+      "config": "CPU de entrada, 8GB RAM, SSD 256GB, gráfica integrada",
+      "marcas": [
+        "HP",
+        "Dell",
+        "Lenovo"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "condiciones": {
+      "proposito": "oficina",
+      "presupuesto": "bajo",
+      "movilidad": "portatil"
+    },
+    "recomendacion": {
+      "tipo": "Portátil de oficina económico",
+      "config": "CPU de bajo consumo, 8GB RAM, SSD 256GB, pantalla 14-15 pulgadas",
+      "marcas": [
+        "HP",
+        "Lenovo",
+        "Acer"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "condiciones": {
+      "proposito": "oficina",
+      "presupuesto": "medio",
+      "movilidad": "portatil"
+    },
+    "recomendacion": {
+      "tipo": "Portátil de oficina cómodo",
+      "config": "CPU i5/Ryzen 5, 16GB RAM, SSD 512GB, pantalla Full HD, buena batería",
+      "marcas": [
+        "Lenovo ThinkPad",
+        "Dell Latitude",
+        "HP ProBook"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "condiciones": {
+      "proposito": "oficina",
+      "presupuesto": "alto",
+      "movilidad": "portatil"
+    },
+    "recomendacion": {
+      "tipo": "Ultrabook para negocios",
+      "config": "CPU i7/Ryzen 7, 16GB RAM, SSD 512GB-1TB, chasis ligero, buena autonomía",
+      "marcas": [
+        "Dell XPS",
+        "Lenovo ThinkPad X1",
+        "HP EliteBook"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "condiciones": {
+      "proposito": "oficina",
+      "presupuesto": "medio",
+      "movilidad": "escritorio"
+    },
+    "recomendacion": {
+      "tipo": "PC de oficina versátil",
+      "config": "CPU i5/Ryzen 5, 16GB RAM, SSD 512GB, opción de dos monitores",
+      "marcas": [
+        "HP",
+        "Dell",
+        "Lenovo"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "condiciones": {
+      "proposito": "estudio",
+      "presupuesto": "bajo",
+      "movilidad": "portatil"
+    },
+    "recomendacion": {
+      "tipo": "Portátil básico para estudiante",
+      "config": "CPU de entrada, 8GB RAM, SSD 256GB, pantalla 14 pulgadas, peso moderado",
+      "marcas": [
+        "Acer",
+        "Lenovo",
+        "HP"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "condiciones": {
+      "proposito": "estudio",
+      "presupuesto": "medio",
+      "movilidad": "portatil"
+    },
+    "recomendacion": {
+      "tipo": "Portátil para estudios y programación",
+      "config": "CPU i5/Ryzen 5, 16GB RAM, SSD 512GB, teclado cómodo, buena batería",
+      "marcas": [
+        "Lenovo IdeaPad",
+        "ASUS Vivobook",
+        "Dell Inspiron"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "condiciones": {
+      "proposito": "estudio",
+      "presupuesto": "medio",
+      "movilidad": "escritorio"
+    },
+    "recomendacion": {
+      "tipo": "PC de escritorio para estudiante",
+      "config": "CPU 6 núcleos, 16GB RAM, SSD 512GB, opción de pequeña GPU dedicada",
+      "marcas": [
+        "HP",
+        "Lenovo",
+        "montaje propio"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "condiciones": {
+      "proposito": "estudio",
+      "presupuesto": "alto",
+      "movilidad": "portatil"
+    },
+    "recomendacion": {
+      "tipo": "Portátil avanzado para estudios técnicos",
+      "config": "CPU i7/Ryzen 7, 16-32GB RAM, SSD 1TB, posibilidad de GPU dedicada para IA/ML ligera",
+      "marcas": [
+        "Lenovo Legion Slim",
+        "Dell XPS",
+        "ASUS Zenbook"
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "condiciones": {
+      "proposito": "video",
+      "presupuesto": "medio",
+      "movilidad": "escritorio"
+    },
+    "recomendacion": {
+      "tipo": "PC para edición de video básica",
+      "config": "CPU 6 núcleos, 32GB RAM, GPU dedicada gama media, SSD 1TB para proyectos",
+      "marcas": [
+        "HP",
+        "montaje propio",
+        "Dell"
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "condiciones": {
+      "proposito": "video",
+      "presupuesto": "alto",
+      "movilidad": "escritorio"
+    },
+    "recomendacion": {
+      "tipo": "Workstation para edición de video",
+      "config": "CPU 8-12 núcleos, 64GB RAM, GPU profesional o gaming alta gama, SSD 2TB",
+      "marcas": [
+        "Dell Precision",
+        "HP Z",
+        "montaje propio"
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "condiciones": {
+      "proposito": "video",
+      "presupuesto": "medio",
+      "movilidad": "portatil"
+    },
+    "recomendacion": {
+      "tipo": "Portátil para edición de video ligera",
+      "config": "CPU i7/Ryzen 7, 16-32GB RAM, GPU dedicada gama media, SSD 1TB",
+      "marcas": [
+        "ASUS Vivobook Pro",
+        "Dell XPS 15",
+        "Lenovo Legion"
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "condiciones": {
+      "proposito": "video",
+      "presupuesto": "alto",
+      "movilidad": "portatil"
+    },
+    "recomendacion": {
+      "tipo": "Portátil profesional para edición de video",
+      "config": "CPU alto rendimiento, 32-64GB RAM, GPU dedicada potente, SSD 2TB",
+      "marcas": [
+        "Apple MacBook Pro",
+        "Dell XPS",
+        "ASUS ProArt"
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "condiciones": {
+      "proposito": "otro",
+      "presupuesto": "bajo",
+      "movilidad": "portatil"
+    },
+    "recomendacion": {
+      "tipo": "Portátil multimedia básico",
+      "config": "CPU de entrada, 8GB RAM, SSD 256GB, pantalla Full HD",
+      "marcas": [
+        "Lenovo",
+        "Acer",
+        "HP"
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "condiciones": {
+      "proposito": "otro",
+      "presupuesto": "bajo",
+      "movilidad": "escritorio"
+    },
+    "recomendacion": {
+      "tipo": "PC de sobremesa doméstico",
+      "config": "CPU básica, 8GB RAM, SSD 256-512GB, gráfica integrada",
+      "marcas": [
+        "HP",
+        "Dell",
+        "montaje propio"
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "condiciones": {
+      "proposito": "otro",
+      "presupuesto": "medio",
+      "movilidad": "portatil"
+    },
+    "recomendacion": {
+      "tipo": "Portátil multimedia equilibrado",
+      "config": "CPU i5/Ryzen 5, 16GB RAM, SSD 512GB-1TB, buena pantalla y sonido",
+      "marcas": [
+        "ASUS",
+        "Lenovo",
+        "Dell"
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "condiciones": {
+      "proposito": "otro",
+      "presupuesto": "medio",
+      "movilidad": "escritorio"
+    },
+    "recomendacion": {
+      "tipo": "PC doméstico versátil",
+      "config": "CPU 6 núcleos, 16GB RAM, SSD 512GB-1TB, posibilidad de pequeña GPU",
+      "marcas": [
+        "HP",
+        "Dell",
+        "montaje propio"
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "condiciones": {
+      "proposito": "otro",
+      "presupuesto": "alto",
+      "movilidad": "portatil"
+    },
+    "recomendacion": {
+      "tipo": "Ultrabook multimedia premium",
+      "config": "CPU i7/Ryzen 7, 16-32GB RAM, SSD 1TB, chasis ligero, buena batería y pantalla de alta calidad",
+      "marcas": [
+        "Dell XPS",
+        "MacBook Air/Pro",
+        "ASUS Zenbook"
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "condiciones": {
+      "proposito": "otro",
+      "presupuesto": "alto",
+      "movilidad": "escritorio"
+    },
+    "recomendacion": {
+      "tipo": "Todo en uno multimedia",
+      "config": "CPU i7/Ryzen 7, 16-32GB RAM, SSD 1TB, pantalla grande de alta resolución",
+      "marcas": [
+        "Apple iMac",
+        "HP All-in-One",
+        "Lenovo AIO"
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "condiciones": {
+      "proposito": "juegos",
+      "presupuesto": "medio",
+      "movilidad": "portatil"
+    },
+    "recomendacion": {
+      "tipo": "Msi Katan GF76",
+      "config": "Itel Core i5-12350H, Nvidia 3050 for laptop, Ram: 16 , Storage: 450 g",
+      "marcas": [
+        "MSI"
+      ]
+    }
+  }
+]
