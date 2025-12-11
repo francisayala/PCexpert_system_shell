@@ -1,22 +1,5 @@
 [
   {
-    "id": 1,
-    "condiciones": {
-      "proposito": "juegos",
-      "presupuesto": "bajo",
-      "movilidad": "escritorio"
-    },
-    "recomendacion": {
-      "tipo": "PC gaming de entrada",
-      "config": "CPU 4-6 núcleos, 16GB RAM, GPU dedicada básica (ej. GTX 1650/RTX nivel inicial), SSD 512GB",
-      "marcas": [
-        "Lenovo",
-        "Acer",
-        "HP"
-      ]
-    }
-  },
-  {
     "id": 2,
     "condiciones": {
       "proposito": "juegos",
@@ -419,6 +402,36 @@
       "config": "Itel Core i5-12350H, Nvidia 3050 for laptop, Ram: 16 , Storage: 450 g",
       "marcas": [
         "MSI"
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "condiciones": {
+      "proposito": "juegos",
+      "presupuesto": "medio",
+      "movilidad": "portatil"
+    },
+    "recomendacion": {
+      "tipo": "HP invictus",
+      "config": "Itelcore i5/i7 9gen, GPU: NVIDIA GeForce RTX 3050, RAM: 16, Storage: 512 gb DDR4/DDR5",
+      "marcas": [
+        "HP"
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "condiciones": {
+      "proposito": "oficina",
+      "presupuesto": "medio",
+      "movilidad": "escritorio"
+    },
+    "recomendacion": {
+      "tipo": "MSI for ofice",
+      "config": "NVIDIA 3050 , example",
+      "marcas": [
+        "HP"
       ]
     }
   }

@@ -71,15 +71,25 @@ def preguntar_usuario() -> Dict[str, Any]:
 
 def ejecutar_consulta() -> None:
     motor = MotorInferencia()
-    hechos = preguntar_usuario()
-    resultados = motor.inferir(hechos)
+    hechos: Dict[str, Any] = preguntar_usuario()
 
+    # Llamamos a la versión con traza
+    resultados, traza = motor.inferir_con_traza(hechos)
+
+    # Mostrar la traza completa del proceso de razonamiento
+    print("\n=== TRAZA DEL PROCESO DE RAZONAMIENTO DEL SISTEMA EXPERTO ===")
+    for linea in traza:
+        print(linea)
+
+    # Después, mostrar las recomendaciones finales
     if not resultados:
-        print("\nNo se encontraron recomendaciones exactas para esos parámetros.")
-        print("Pruebe con un presupuesto diferente o modifique el propósito.\n")
+        print("\n=== RESULTADO FINAL ===")
+        print("No se encontraron recomendaciones exactas para esos parámetros.")
+        print("El motor de inferencia no encontró ninguna regla cuyas condiciones "
+              "coincidan completamente con las respuestas dadas.\n")
         return
 
-    print("\n=== RECOMENDACIONES ENCONTRADAS ===")
+    print("\n=== RECOMENDACIONES FINALES GENERADAS POR LAS REGLAS DISPARADAS ===")
     for regla, recomendacion in resultados:
         print(f"\nRegla #{regla.id}")
         print(f"Tipo de dispositivo: {recomendacion.get('tipo')}")
@@ -88,5 +98,17 @@ def ejecutar_consulta() -> None:
         if marcas:
             print(f"Marcas recomendadas: {', '.join(marcas)}")
 
-    print("\n(Explicación: se han aplicado las reglas cuyas condiciones coinciden "
-          "con las respuestas dadas.)\n")
+        # Explicación resumida de por qué esta regla en concreto se disparó
+        print("\nExplicación específica de esta variante:")
+        print("  Esta variante proviene de una regla de producción de la forma")
+        print("  'SI (proposito, presupuesto, movilidad, ...) ENTONCES (recomendación)'.")
+        print("  La regla #{} se disparó porque para todos sus atributos clave se cumplió:".format(regla.id))
+        for atributo, valor_regla in regla.condiciones.items():
+            valor_usuario = hechos.get(atributo)
+            print(f"  - {atributo}: usted eligió '{valor_usuario}' "
+                  f"y la regla exige '{valor_regla}'. (Coinciden)")
+
+    print("\nEl sistema ha aplicado un modelo de producción con encadenamiento hacia adelante: "
+          "partiendo de sus datos de entrada, ha recorrido todas las reglas, "
+          "ha comprobado sus condiciones y ha activado aquellas que coincidían totalmente.\n")
+
